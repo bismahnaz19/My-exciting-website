@@ -7,6 +7,8 @@
  }
  h1{
     font-size: 40px;
+    font-family:serif;
+    text-align: center;
  }
 nav{
     background-color: black;
@@ -14,6 +16,7 @@ nav{
     width: 90%;
     color: #ffffff;
     margin: 20px auto;
+    font-size: 20px;
 }   
  nav ul{
     width:100%;
@@ -36,18 +39,28 @@ h2{
 .firdiv{
     height: 30vh;
     width: 70%;
-
+}
+p{
+    text-align: justify;
 }
 .mainimg{
     height: 40vh;
     width: 20%;
     display:flex;
     float:left;
+    padding: 10px;
 }
 h2 {
     margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
 }
-
+.secheading{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+}
 .secdiv{
     width: 25%;
     height: 400px;
@@ -60,4 +73,5 @@ h2 {
     margin-top: 10px;
     height: 100px;
     width: 100px;
+    padding: 5px;
 }
